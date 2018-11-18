@@ -1,4 +1,10 @@
+#![no_std]
+
 extern crate chrono;
+extern crate libm;
+
+use libm::F64Ext; // adds methods to `f32`
+
 
 use chrono::{Date,NaiveDate,Utc,DateTime,Duration};
 
