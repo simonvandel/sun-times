@@ -8,5 +8,5 @@ repository = "https://github.com/Eroc33/sun-times"
 description = "Calculate sunset and sunrise times at given latitude and longitude"
 
 [dependencies]
-chrono = "0.4.0"
+chrono = {version = "0.4.0", default-features = false}
 libm = "0.1.2"
